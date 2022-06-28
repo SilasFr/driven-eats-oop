@@ -13,7 +13,6 @@ export default class Pedido {
       this.bebidaSelecionada &&
       this.sobremesaSelecionada
     ) {
-      console.log(this);
       this.total =
         this.pratoSelecionado.preco +
         this.bebidaSelecionada.preco +
